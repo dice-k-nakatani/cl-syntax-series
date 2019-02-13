@@ -12,7 +12,7 @@
   :components ((:module "src"
                 :components
                 ((:file "cl-syntax-series"))))
-  :description ""
+  :description "cl-syntax definition for series."
   :long-description
   #.(read-file-string
      (subpathname *load-pathname* "README.md"))
